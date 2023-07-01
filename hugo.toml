@@ -1,15 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Atticus Wang - Home'
+title = 'atticusw'
 theme = 'PaperMod'
 [params.homeInfoParams]
-Title = "Hi there wave"
-Content = "Can be Info, links, about..."
-
-[[params.socialIcons]]
-name = "<platform>"
-url = "<link>"
-
-[[params.socialIcons]]
-name = "<platform 2>"
-url = "<link2>"
+Title = "Its-a-me!"
+Content = "Hi! I'm Zifan Wang (王子凡)"
