@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Home</title>
     <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 21:53:16 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://example.org/posts/test/</link>
-      <pubDate>Fri, 30 Jun 2023 21:53:16 -0400</pubDate>
+      <title>Projects</title>
+      <link>http://example.org/projects/</link>
+      <pubDate>Sat, 01 Jul 2023 00:09:43 -0400</pubDate>
       
-      <guid>http://example.org/posts/test/</guid>
-      <description>This is a test file. hey heyy $x^2+y^2=1$ and hey</description>
+      <guid>http://example.org/projects/</guid>
+      <description>Notes Notes for 18.785 and 18.786, offered 2022-2023. Incomplete and almost certainly contains errors, will change without notice </description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>http://example.org/cv/</link>
+      <pubDate>Fri, 30 Jun 2023 23:05:00 -0400</pubDate>
+      
+      <guid>http://example.org/cv/</guid>
+      <description>Education Massachusetts Institute of Technology, 2022&amp;ndash;2026 (expected) Princeton Int&amp;rsquo;l School of Math and Science, 2018&amp;ndash;2022 </description>
     </item>
     
   </channel>

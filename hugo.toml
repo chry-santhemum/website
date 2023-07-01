@@ -1,7 +1,29 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'atticusw'
+title = 'Home'
 theme = 'PaperMod'
+
 [params.homeInfoParams]
-Title = "Its-a-me!"
-Content = "Hi! I'm Zifan Wang (王子凡)"
+Title = "It's-a-me!"
+Content = "Hi! I'm Zifan Wang (王子凡) and I often go by Atticus. I'm an MIT '26 undergrad interested in pure math and other less pure things."
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:atticusw@mit.edu"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "www.facebook.com/zifan.wang.524/"
+
+
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/cv/"
+weight = 50
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 60

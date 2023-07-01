@@ -1,13 +1,8 @@
 ---
 title: "Test"
-date: 2023-06-30T21:53:16-04:00
-draft: false
+date: 2023-06-30T23:05:18-04:00
+draft: true
 ---
 
-# This is a test file.
 
-## hey
-
-### heyy
-
-$x^2+y^2=1$ and *hey*
+## 
