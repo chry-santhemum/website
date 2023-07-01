@@ -1,7 +1,8 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://chry-santhemum.github.io/'
 languageCode = 'en-us'
 title = 'Home'
 theme = 'PaperMod'
+
 
 [params.homeInfoParams]
 Title = "It's-a-me!"
