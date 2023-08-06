@@ -2,26 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home</title>
-    <link>https://chry-santhemum.github.io/</link>
+    <link>https://chry-santhemum.github.io/website/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://chry-santhemum.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2023 23:05:18 -0400</lastBuildDate><atom:link href="https://chry-santhemum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>https://chry-santhemum.github.io/projects/</link>
+      <link>https://chry-santhemum.github.io/website/projects/</link>
       <pubDate>Sat, 01 Jul 2023 00:09:43 -0400</pubDate>
       
-      <guid>https://chry-santhemum.github.io/projects/</guid>
-      <description>Notes Notes for 18.785 and 18.786, offered 2022-2023. Incomplete and almost certainly contains errors, will change without notice </description>
+      <guid>https://chry-santhemum.github.io/website/projects/</guid>
+      <description>Notes Incomplete and almost certainly contains errors, will change without notice.
+Number theory, 18.785 and 18.786, offered 2022 &amp;ndash; 2023. Algebraic geometry, 18.725 and 18.726, offered 2022 &amp;ndash; 2023. Étale cohomology, part of DRP, winter 2023. Reading Just an ambitious plan. Talk to me if you want to share ideas or read a book together.
+Étale Cohomology and the Weil Conjecture (Freitag &amp;amp; Kiehl)
+Galois Theory of Linear Differential Equations (Put &amp;amp; Singer)</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://chry-santhemum.github.io/website/posts/test/</link>
+      <pubDate>Fri, 30 Jun 2023 23:05:18 -0400</pubDate>
+      
+      <guid>https://chry-santhemum.github.io/website/posts/test/</guid>
+      <description>Ma vie est monotone. Je chasse les poules, les hommes me chassent. Toutes les poules se ressemblent, et tous les hommes se ressemblent. Je m&amp;rsquo;ennuie donc un peu.
+The fox from The Little Prince</description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>https://chry-santhemum.github.io/cv/</link>
+      <link>https://chry-santhemum.github.io/website/cv/</link>
       <pubDate>Fri, 30 Jun 2023 23:05:00 -0400</pubDate>
       
-      <guid>https://chry-santhemum.github.io/cv/</guid>
-      <description>Education Massachusetts Institute of Technology, 2022&amp;ndash;2026 (expected) Princeton Int&amp;rsquo;l School of Math and Science, 2018&amp;ndash;2022 </description>
+      <guid>https://chry-santhemum.github.io/website/cv/</guid>
+      <description>Education Massachusetts Institute of Technology (2022 &amp;ndash; 2026) Princeton Int&amp;rsquo;l School of Math and Science (2018 &amp;ndash; 2022) Research Analytic Langlands correspondence for PGL(2) in genus 0 with wild ramification.
+June 2023 &amp;ndash; ongoing, part of SPUR. Mentor: Daniil Klyuev.
+Awards Gold medal, International Mathematical Olympiad (2021) </description>
     </item>
     
   </channel>
