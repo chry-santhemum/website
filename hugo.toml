@@ -1,20 +1,15 @@
-baseURL = ''
-languageCode = 'en-us'
-title = 'Home'
-theme = 'PaperMod'
-
+baseURL = "https://chry-santhemum.github.io/website/"
+languageCode = "en-us"
+title = "Home"
+theme = "PaperMod"
 
 [params.homeInfoParams]
-Title = "It's-a-me!"
-Content = "Hi! I'm Zifan Wang (王子凡) and I often go by Atticus. I'm an MIT '26 undergrad interested in pure math and other less pure things."
+Title = "Hi!"
+Content = "I am Zifan Wang (王子凡) and I often go by Atticus. I'm an MIT '26 majoring in (pure) math, with frivolous interests in music, writing, physics, and computer science."
 
 [[params.socialIcons]]
 name = "email"
 url = "mailto:atticusw@mit.edu"
-
-[[params.socialIcons]]
-name = "facebook"
-url = "www.facebook.com/zifan.wang.524/"
 
 
 [[menu.main]]

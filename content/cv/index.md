@@ -6,5 +6,16 @@ draft: false
 
 ## Education
 
-- Massachusetts Institute of Technology, 2022--2026 (expected)
-- Princeton Int'l School of Math and Science, 2018--2022
+- Massachusetts Institute of Technology (2022 -- 2026)
+- Princeton Int'l School of Math and Science (2018 -- 2022)
+
+
+## Research
+
+- Analytic Langlands correspondence for PGL(2) in genus 0 with wild ramification. 
+
+	June 2023 -- ongoing, part of [SPUR](https://math.mit.edu/research/undergraduate/spur/). Mentor: Daniil Klyuev.
+
+## Awards
+
+- Gold medal, International Mathematical Olympiad (2021)
