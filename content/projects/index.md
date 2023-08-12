@@ -13,14 +13,11 @@ draft: false
 - [Étale cohomology](/website/etale.pdf), part of [DRP](https://math.mit.edu/research/undergraduate/drp/), winter 2023.
 
 
-## Reading
+## Current reading list
 
 Just an ambitious plan. Talk to me if you want to share ideas or read a book together.
 
 1. Étale Cohomology and the Weil Conjecture (Freitag & Kiehl)
-
-1. Galois Theory of Linear Differential Equations (Put & Singer)
-
-1. Algebraic Geometry (Hartshorne)
-
-1. Algebraic Groups (Milne)
+2. Representations of Compact Lie Groups (Bröcker & tom Dieck)
+3. Representation Theory (Fulton & Harris)
+4. Galois Theory of Linear Differential Equations (Put & Singer)
