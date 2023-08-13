@@ -13,29 +13,32 @@
       <pubDate>Sat, 01 Jul 2023 00:09:43 -0400</pubDate>
       
       <guid>https://chry-santhemum.github.io/website/projects/</guid>
-      <description>Notes Incomplete and almost certainly contains errors, will change without notice.
-Number theory, 18.785 and 18.786, offered 2022 &amp;ndash; 2023. Algebraic geometry, 18.725 and 18.726, offered 2022 &amp;ndash; 2023. Étale cohomology, part of DRP, winter 2023. Current reading list Just an ambitious plan. Talk to me if you want to share ideas or read a book together.
-Étale Cohomology and the Weil Conjecture (Freitag &amp;amp; Kiehl) Representations of Compact Lie Groups (Bröcker &amp;amp; tom Dieck) Representation Theory (Fulton &amp;amp; Harris) Galois Theory of Linear Differential Equations (Put &amp;amp; Singer) </description>
+      <description>Course notes under construction
+Reading I have a list of topics I want to learn (not shown here). Talk to me if you want to recommend a book, share ideas, or read something together.
+Currently:
+Étale cohomology, mainly following Freitag &amp;amp; Kiehl.
+Representation theory of Lie groups, mainly following Bröcker &amp;amp; tom Dieck and Fulton &amp;amp; Harris.</description>
     </item>
     
     <item>
-      <title>About me</title>
+      <title>About</title>
       <link>https://chry-santhemum.github.io/website/posts/test/</link>
       <pubDate>Fri, 30 Jun 2023 23:05:18 -0400</pubDate>
       
       <guid>https://chry-santhemum.github.io/website/posts/test/</guid>
       <description>Ma vie est monotone. Je chasse les poules, les hommes me chassent. Toutes les poules se ressemblent, et tous les hommes se ressemblent. Je m&amp;rsquo;ennuie donc un peu.
-The fox from The Little Prince</description>
+The fox from The Little Prince
+(&amp;hellip;)</description>
     </item>
     
     <item>
-      <title>CV</title>
-      <link>https://chry-santhemum.github.io/website/cv/</link>
+      <title>Résumé</title>
+      <link>https://chry-santhemum.github.io/website/resume/</link>
       <pubDate>Fri, 30 Jun 2023 23:05:00 -0400</pubDate>
       
-      <guid>https://chry-santhemum.github.io/website/cv/</guid>
-      <description>Education Massachusetts Institute of Technology (2022 &amp;ndash; 2026) Princeton Int&amp;rsquo;l School of Math and Science (2018 &amp;ndash; 2022) Research Analytic Langlands correspondence for PGL(2) in genus 0 with wild ramification.
-June 2023 &amp;ndash; ongoing, part of SPUR. Mentor: Daniil Klyuev.
+      <guid>https://chry-santhemum.github.io/website/resume/</guid>
+      <description>Education Massachusetts Institute of Technology (2022 &amp;ndash; ongoing) Princeton Int&amp;rsquo;l School of Math and Science (2018 &amp;ndash; 2022) Research Analytic Langlands correspondence for PGL(2) in genus 0 with wild ramification.
+(Summer 2023 &amp;ndash; ongoing) Part of SPUR. Mentor: Daniil Klyuev.
 Awards Gold medal, International Mathematical Olympiad (2021) </description>
     </item>
     
