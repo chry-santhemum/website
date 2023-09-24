@@ -18,4 +18,5 @@ draft: false
 
 ## Awards
 
+- Finalist, Regeneron Science Talent Search (2022)
 - Gold medal, International Mathematical Olympiad (2021)

@@ -4,8 +4,8 @@ title = "Home"
 theme = "PaperMod"
 
 [params.homeInfoParams]
-Title = "Hi!"
-Content = "I am Zifan Wang (王子凡) and I often go by Atticus. I am an MIT undergrad majoring in (pure) math and interested in music, writing, physics, and computer science."
+Title = "Homepage of Atticus"
+Content = "I am Zifan Wang (王子凡) and I often go by Atticus. I am an MIT undergrad majoring in (pure) math and interested in physics, poetry, writing, music, and theoretical computer science."
 
 [[params.socialIcons]]
 name = "email"
