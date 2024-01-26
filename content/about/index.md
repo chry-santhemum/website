@@ -3,7 +3,7 @@ title: "About"
 draft: false
 ---
 
-![photo](/website/bad.jpeg'photo')
+![photo](/bad.jpeg)
 
 My name is Zifan Wang (王子凡). I mostly go by Atticus. Yes, it was inspired by that novel.
 

@@ -3,4 +3,4 @@ title: "CV"
 draft: false
 ---
 
-![link](/website/cv.pdf)
+[Link](/website/cv.pdf)
