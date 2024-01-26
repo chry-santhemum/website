@@ -1,6 +1,6 @@
 baseURL = "https://chry-santhemum.github.io/website/"
 languageCode = "en-us"
-title = "Home"
+title = "Atticus Wang"
 theme = "PaperMod"
 
 [params.homeInfoParams]
