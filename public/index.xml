@@ -7,18 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://chry-santhemum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projects</title>
-      <link>https://chry-santhemum.github.io/website/projects/</link>
-      <pubDate>Sat, 01 Jul 2023 00:09:43 -0400</pubDate>
-      
-      <guid>https://chry-santhemum.github.io/website/projects/</guid>
-      <description>Course notes under construction
-Reading Talk to me if you want to recommend a book, share ideas, chat, or read something together.
-Currently I am struggling at learning:
-Representation theory of Lie groups Étale cohomology D-modules and perverse sheaves Topological modular forms, and its myriad of ingredients </description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://chry-santhemum.github.io/website/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,6 +25,17 @@ In a parallel universe, I may be a guitarist, a chemist, or a writer.</descripti
       
       <guid>https://chry-santhemum.github.io/website/cv/</guid>
       <description> </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://chry-santhemum.github.io/website/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chry-santhemum.github.io/website/projects/</guid>
+      <description>Notes I put all my math notes in one file. It is, of course, a work in progress. Comments and suggestions are very much appreciated.
+Reading Currently I am learning:
+Chromatic homotopy theory Geometric quantization D-modules Talk to me if you want to recommend a book, share ideas, chat, or read something together!</description>
     </item>
     
   </channel>

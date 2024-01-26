@@ -5,9 +5,9 @@ draft: true
 ---
 
 
-> Ma vie est monotone. Je chasse les poules, les hommes me chassent. Toutes les poules se ressemblent, et tous les hommes se ressemblent. Je m'ennuie donc un peu.
+> All grown-ups were once children... but only few of them remember it.
 > 
-> The fox from _The Little Prince_
+> _The Little Prince_
 
 
 (...)

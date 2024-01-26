@@ -4,8 +4,8 @@ title = "Home"
 theme = "PaperMod"
 
 [params.homeInfoParams]
-Title = "Hey!"
-Content = ""
+Title = "Hey! I'm Atticus."
+Content = "_Look at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And you will see how everything changes..._"
 
 [[params.socialIcons]]
 name = "email"
