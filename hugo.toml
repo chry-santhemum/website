@@ -4,8 +4,8 @@ title = "Home"
 theme = "PaperMod"
 
 [params.homeInfoParams]
-Title = "Homepage of Atticus"
-Content = "I am Zifan Wang (王子凡) and I often go by Atticus. I am an MIT undergrad majoring in (pure) math and interested in physics, poetry, writing, music, and theoretical computer science."
+Title = "Hey!"
+Content = ""
 
 [[params.socialIcons]]
 name = "email"
@@ -15,11 +15,20 @@ url = "mailto:atticusw@mit.edu"
 name = "facebook"
 url = "https://www.facebook.com/zifan.wang.524/"
 
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/tweetfkingtweet"
 
 [[menu.main]]
-identifier = "resume"
-name = "Résumé"
-url = "/resume/"
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 20
+
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/cv/"
 weight = 50
 
 [[menu.main]]

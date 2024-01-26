@@ -5,8 +5,7 @@
     <link>https://chry-santhemum.github.io/website/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 23:05:18 -0400</lastBuildDate><atom:link href="https://chry-santhemum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://chry-santhemum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
       <link>https://chry-santhemum.github.io/website/projects/</link>
@@ -14,32 +13,30 @@
       
       <guid>https://chry-santhemum.github.io/website/projects/</guid>
       <description>Course notes under construction
-Reading I have a list of topics I want to learn (not shown here). Talk to me if you want to recommend a book, share ideas, or read something together.
-Currently:
-Étale cohomology, mainly following Freitag &amp;amp; Kiehl.
-Representation theory of Lie groups, mainly following Bröcker &amp;amp; tom Dieck and Fulton &amp;amp; Harris.</description>
+Reading Talk to me if you want to recommend a book, share ideas, chat, or read something together.
+Currently I am struggling at learning:
+Representation theory of Lie groups Étale cohomology D-modules and perverse sheaves Topological modular forms, and its myriad of ingredients </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://chry-santhemum.github.io/website/posts/test/</link>
-      <pubDate>Fri, 30 Jun 2023 23:05:18 -0400</pubDate>
+      <link>https://chry-santhemum.github.io/website/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chry-santhemum.github.io/website/posts/test/</guid>
-      <description>Ma vie est monotone. Je chasse les poules, les hommes me chassent. Toutes les poules se ressemblent, et tous les hommes se ressemblent. Je m&amp;rsquo;ennuie donc un peu.
-The fox from The Little Prince
-(&amp;hellip;)</description>
+      <guid>https://chry-santhemum.github.io/website/about/</guid>
+      <description>My name is Zifan Wang (王子凡). I mostly go by Atticus. Yes, it was inspired by that novel.
+I&amp;rsquo;m a sophomore at MIT studying pure math, primarily interested in homotopy theory and algebraic geometry. Right now, I&amp;rsquo;m learning chromatic homotopy theory.
+I also dabble in physics and machine learning. Recently I became interested in formalizing mathematics using Lean.
+In a parallel universe, I may be a guitarist, a chemist, or a writer.</description>
     </item>
     
     <item>
-      <title>Résumé</title>
-      <link>https://chry-santhemum.github.io/website/resume/</link>
-      <pubDate>Fri, 30 Jun 2023 23:05:00 -0400</pubDate>
+      <title>CV</title>
+      <link>https://chry-santhemum.github.io/website/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chry-santhemum.github.io/website/resume/</guid>
-      <description>Education Massachusetts Institute of Technology (2022 &amp;ndash; ongoing) Princeton Int&amp;rsquo;l School of Math and Science (2018 &amp;ndash; 2022) Research Analytic Langlands correspondence for PGL(2) in genus 0 with wild ramification.
-(Summer 2023 &amp;ndash; ongoing) Part of SPUR. Mentor: Daniil Klyuev.
-Awards Gold medal, International Mathematical Olympiad (2021) </description>
+      <guid>https://chry-santhemum.github.io/website/cv/</guid>
+      <description> </description>
     </item>
     
   </channel>
