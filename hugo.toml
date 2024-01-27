@@ -5,7 +5,14 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "Hey! I'm Atticus."
-Content = "_Look at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And you will see how everything changes..._"
+Content = """&#8201;
+
+_Look at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And you will see how everything changes..._
+
+&#8201;
+
+&#11013; &#11013; [will](https://willhath.com/) &#11013; &#11013; (my friends!) &#10145; &#10145; [shreya](https://smog.ink/) &#10145; &#10145;"""
+
 
 [[params.socialIcons]]
 name = "email"

@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Home</title>
+    <title>Posts on Atticus Wang</title>
     <link>https://chry-santhemum.github.io/website/posts/</link>
-    <description>Recent content in Posts on Home</description>
+    <description>Recent content in Posts on Atticus Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 23:05:18 -0400</lastBuildDate><atom:link href="https://chry-santhemum.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jan 2024 21:36:30 -0500</lastBuildDate><atom:link href="https://chry-santhemum.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://chry-santhemum.github.io/website/posts/test/</link>
-      <pubDate>Fri, 30 Jun 2023 23:05:18 -0400</pubDate>
+      <title>Poems</title>
+      <link>https://chry-santhemum.github.io/website/posts/poems/</link>
+      <pubDate>Fri, 26 Jan 2024 21:36:30 -0500</pubDate>
       
-      <guid>https://chry-santhemum.github.io/website/posts/test/</guid>
-      <description>Ma vie est monotone. Je chasse les poules, les hommes me chassent. Toutes les poules se ressemblent, et tous les hommes se ressemblent. Je m&amp;rsquo;ennuie donc un peu.
-The fox from The Little Prince
-(&amp;hellip;)</description>
+      <guid>https://chry-santhemum.github.io/website/posts/poems/</guid>
+      <description>Most of these poems were written during fall 2023 for the class 21W.771, taught by Prof. Erica Funkhouser. The painting on the cover is L&amp;rsquo;Estaque by Paul Cézanne.
+Vertigo From dizzying heights, the earth we once knew drifted into a sea of whispers.
+Not snow-capped peaks, nor treacherous straits could stop us anymore.
+We flew over the town in half-light. Soft shadows scaled the low walls. The place
+where every road began.</description>
     </item>
     
   </channel>
