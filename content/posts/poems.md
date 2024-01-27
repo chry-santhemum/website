@@ -23,8 +23,8 @@ Soft shadows scaled the low walls. The place
 where every road began. The air was brisk, \
 the foam sparkled rose-gold, the moon
 
-pale and crystalline. We were no longer \
-just a burning memory.
+pale and crystalline. Were we no longer \
+just a burning memory?
 
 And with a gasp I was wide awake, flailing fists \
 where my majestic wings had been. Soaring so high
