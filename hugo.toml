@@ -11,6 +11,10 @@ _Look at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And y
 
 &#8201;
 
+![cezanne](/website/images/cezanne.jpg)
+
+&#8201;
+
 &#11013; &#11013; [will](https://willhath.com/) &#11013; &#11013; (my friends!) &#10145; &#10145; [shreya](https://smog.ink/) &#10145; &#10145;"""
 
 
@@ -39,7 +43,7 @@ url = "/cv/"
 weight = 50
 
 [[menu.main]]
-identifier = "projects"
-name = "Projects"
-url = "/projects/"
+identifier = "notes"
+name = "Notes"
+url = "/notes/"
 weight = 60
