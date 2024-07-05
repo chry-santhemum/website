@@ -5,30 +5,16 @@
     <link>https://chry-santhemum.github.io/website/</link>
     <description>Recent content on Atticus Wang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jan 2024 21:36:30 -0500</lastBuildDate><atom:link href="https://chry-santhemum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Poems</title>
-      <link>https://chry-santhemum.github.io/website/posts/poems/</link>
-      <pubDate>Fri, 26 Jan 2024 21:36:30 -0500</pubDate>
-      
-      <guid>https://chry-santhemum.github.io/website/posts/poems/</guid>
-      <description>Most of these poems were written during fall 2023 for the class 21W.771, taught by Prof. Erica Funkhouser. The painting on the cover is L&amp;rsquo;Estaque by Paul Cézanne.
-Vertigo From dizzying heights, the earth we once knew drifted into a sea of whispers.
-Not snow-capped peaks, nor treacherous straits could stop us anymore.
-We flew over the town in half-light. Soft shadows scaled the low walls. The place
-where every road began.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://chry-santhemum.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://chry-santhemum.github.io/website/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chry-santhemum.github.io/website/about/</guid>
-      <description>My name is Zifan Wang (王子凡). I mostly go by Atticus. Yes, it was inspired by that novel.
-I&amp;rsquo;m a sophomore at MIT studying pure math, primarily interested in homotopy theory and algebraic geometry. Right now, I&amp;rsquo;m learning chromatic homotopy theory.
-I also dabble in physics and machine learning. Recently I became interested in formalizing mathematics using Lean.
+      <description>My name is Zifan Wang (王子凡). I mostly go by Atticus.
+As of summer 2024, I am a rising junior at MIT studying pure math, primarily interested in algebraic topology and algebraic geometry.
+I also dabble in physics and machine learning.
 In a parallel universe, I may be a guitarist, a chemist, or a writer.</description>
     </item>
     
@@ -42,14 +28,12 @@ In a parallel universe, I may be a guitarist, a chemist, or a writer.</descripti
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://chry-santhemum.github.io/website/projects/</link>
+      <title>Notes</title>
+      <link>https://chry-santhemum.github.io/website/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chry-santhemum.github.io/website/projects/</guid>
-      <description>Notes I put all my math notes in one file. It is, of course, a work in progress. Comments and suggestions are very much appreciated.
-Currently I am learning:
-Chromatic homotopy theory Geometric quantization D-modules Talk to me if you want to recommend a book, share ideas, chat, or read something together!</description>
+      <guid>https://chry-santhemum.github.io/website/notes/</guid>
+      <description>Here&amp;rsquo;s the big dumpster. At some point in the future, I hope to turn this into a legible book of some sort. If you spot any mistakes, please do let me know.</description>
     </item>
     
   </channel>
