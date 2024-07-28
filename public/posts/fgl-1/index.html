@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Formal groups, part 1 | Atticus Wang</title>
+<meta name="keywords" content="">
+<meta name="description" content="$\newcommand{\ZZ}{\mathbb{Z}} \newcommand{\FF}{\mathbb{F}} \DeclareMathOperator{\nil}{nil} \DeclareMathOperator{\Spec}{Spec} \DeclareMathOperator{\Spf}{Spf} \DeclareMathOperator{\Ab}{Ab}$This stuff is all standard material and there are a ton of good expositions on this topic, but I thought this would be a good place to begin because the theory of formal groups starts out being really quite elementary, but it quickly goes pretty deep and reaches into a couple of surprising places.
+Before telling you what a formal group is, let me tell you what a formal group law is, which is something arguably easier to describe.">
+<meta name="author" content="">
+<link rel="canonical" href="https://chry-santhemum.github.io/website/posts/fgl-1/">
+<link crossorigin="anonymous" href="/website/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css" integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe&#43;FVUFzPh7U=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/website/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://chry-santhemum.github.io/website/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chry-santhemum.github.io/website/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chry-santhemum.github.io/website/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://chry-santhemum.github.io/website/apple-touch-icon.png">
+<link rel="mask-icon" href="https://chry-santhemum.github.io/website/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Formal groups, part 1" />
+<meta property="og:description" content="$\newcommand{\ZZ}{\mathbb{Z}} \newcommand{\FF}{\mathbb{F}} \DeclareMathOperator{\nil}{nil} \DeclareMathOperator{\Spec}{Spec} \DeclareMathOperator{\Spf}{Spf} \DeclareMathOperator{\Ab}{Ab}$This stuff is all standard material and there are a ton of good expositions on this topic, but I thought this would be a good place to begin because the theory of formal groups starts out being really quite elementary, but it quickly goes pretty deep and reaches into a couple of surprising places.
+Before telling you what a formal group is, let me tell you what a formal group law is, which is something arguably easier to describe." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chry-santhemum.github.io/website/posts/fgl-1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-27T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Formal groups, part 1"/>
+<meta name="twitter:description" content="$\newcommand{\ZZ}{\mathbb{Z}} \newcommand{\FF}{\mathbb{F}} \DeclareMathOperator{\nil}{nil} \DeclareMathOperator{\Spec}{Spec} \DeclareMathOperator{\Spf}{Spf} \DeclareMathOperator{\Ab}{Ab}$This stuff is all standard material and there are a ton of good expositions on this topic, but I thought this would be a good place to begin because the theory of formal groups starts out being really quite elementary, but it quickly goes pretty deep and reaches into a couple of surprising places.
+Before telling you what a formal group is, let me tell you what a formal group law is, which is something arguably easier to describe."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://chry-santhemum.github.io/website/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Formal groups, part 1",
+      "item": "https://chry-santhemum.github.io/website/posts/fgl-1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Formal groups, part 1",
+  "name": "Formal groups, part 1",
+  "description": "$\\newcommand{\\ZZ}{\\mathbb{Z}} \\newcommand{\\FF}{\\mathbb{F}} \\DeclareMathOperator{\\nil}{nil} \\DeclareMathOperator{\\Spec}{Spec} \\DeclareMathOperator{\\Spf}{Spf} \\DeclareMathOperator{\\Ab}{Ab}$This stuff is all standard material and there are a ton of good expositions on this topic, but I thought this would be a good place to begin because the theory of formal groups starts out being really quite elementary, but it quickly goes pretty deep and reaches into a couple of surprising places.\nBefore telling you what a formal group is, let me tell you what a formal group law is, which is something arguably easier to describe.",
+  "keywords": [
+    
+  ],
+  "articleBody": "$\\newcommand{\\ZZ}{\\mathbb{Z}} \\newcommand{\\FF}{\\mathbb{F}} \\DeclareMathOperator{\\nil}{nil} \\DeclareMathOperator{\\Spec}{Spec} \\DeclareMathOperator{\\Spf}{Spf} \\DeclareMathOperator{\\Ab}{Ab}$This stuff is all standard material and there are a ton of good expositions on this topic, but I thought this would be a good place to begin because the theory of formal groups starts out being really quite elementary, but it quickly goes pretty deep and reaches into a couple of surprising places.\nBefore telling you what a formal group is, let me tell you what a formal group law is, which is something arguably easier to describe. Let us fix a ring $R$ (all rings will be unital and commutative). A formal group law (FGL for short) over $R$ is simply a formal power series\n$$F(x,y) \\in R[[x,y]]$$\nwhich satisfies the familiar axioms for abelian groups:\ncommutativity $F(x,y)=F(y,x)$ associativity $F(x,F(y,z))=F(F(x,y),z)$ identity $F(0,x)=F(x,0)=x$. In other words, to write down a FGL over $R$, you just need to choose some elements $c_{ij}\\in R$ for $i,j\\ge 1$, and let\n$$F(x,y) = x + y + \\sum_{i,j\\ge 1} c_{ij} x^iy^j, \\tag{1}$$\nas long as the $c_{ij}$ you chose makes $F$ satisfy commutativity and associativity. These constraints, in terms of $c_{ij}$, are some polynomial equations: commutativity is simply $c_{ij} = c_{ji}$, and associativity is more complicated, but nonetheless described by some polynomial relations in the variables $c_{ij}$.\nIn other words, there is a “universal” FGL, from which all other FGLs follow. This occurs over the ring where $c_{ij}$ are literally just free variables subject to the above polynomial constraints. This universal ring is called the “Lazard ring”:\n$$L = \\ZZ[c_{ij}]/(\\text{relations}),$$\nand the universal FGL which lives over it is literally eq. (1). And for an arbitrary ring $R$, to give a FGL over it is exactly the same as giving a ring homomorphism $L\\to R$. This is something algebraic geometers really like to do: we have a functor which associates to a ring $R$ the set of FGLs over it, and we have shown that this functor is “representable”, in fact represented by the ring $L$.\nAnother way to phrase this is that the affine scheme $\\Spec L$ is the moduli space for FGLs, in the sense that its “$R$-points” (aka maps of schemes $\\Spec R\\to \\Spec L$, aka ring maps $L\\to R$) are naturally in bijection with FGLs over $R$.\nThis is all quite trivial so far, so I want to take a slightly different view on what a FGL does. Let’s fix an FGL $F(x,y)$ over $R$. For any $R$-algebra $A$, we can consider the set $\\nil(A)$ of elements $a\\in A$ which are nilpotent. You can easily check that the set $\\nil(A)$ actually forms an ideal in $A$, the nilradical. There is already an addition on it, namely if $x,y\\in\\nil(A)$ then so is $x+y\\in \\nil(A)$. But this FGL we have gives us another way of adding $x,y$ together, namely $F(x,y)$. It is well-defined: $x,y$ are nilpotent, so the potentially infinite sum in $F(x,y)$ is actually a finite sum. Furthermore it makes $\\nil(A)$ into an abelian group, by the axioms which $F$ has to satisfy. So this gives $\\nil(A)$ a group structure that is different from plain addition.\nThus, we have a functor from the category of $R$-algebras to the category of abelian groups, which maps $A$ to $\\nil(A)$ with this group structure defined by $F$. In algebraic geometry, this is the functor represented by the formal scheme $\\Spf R[[x]]$, which is a group object in the category of formal schemes.\nThere is a slight catch in this construction which takes us to the concept of formal groups (FG for short). The catch is that the power series $F(x,y)$ cannot be completely recovered from the functor it defines. To see this, let’s choose any power series $u(t) \\in R[[t]]$ such that $u(t)\\equiv t\\pmod{t^2}$, and let\n$$G(x,y) = u(F(u^{-1}(x), u^{-1}(y))).$$\nWhat’s going on here is that $u$ can be seen as an invertible change of coordinates. And even though $F\\neq G$ as formal power series, they represent isomorphic functors. You can also view $u$ as an isomorphism of FGLs $F\\to G$.\nSo different FGLs may define the same formal group. In other words, to a ring $R$ we can really associate not just a set, but a groupoid of FGLs, wherein an object is a FGL and a map is an isomorphism of FGLs. This groupoid is nontrivial, as FGLs could have many automorphisms! For example, for the additive FGL over $\\FF_2$, $F(x,y)=x+y$, any formal power series of form\n$$u(t)=t + a_1t^2 + a_2t^4 + a_3t^8 + \\dots$$\nis an automorphism. In fact, the automorphism group scheme of the additive formal group over $\\FF_2$ can be naturally identified with the mod 2 dual Steenrod algebra. (What?)\nJust as before $L$ (or more precisely $\\Spec L$) was the moduli space for FGLs, we would like to have some sort of moduli space which takes these isomorphisms into account. In other words, we would like to have a ring (or scheme) whose $R$-points are naturally in bijection with the isomorphism classes of FGLs.\nHowever, such an object doesn’t exist as a ring, or even as a scheme. The keyword, of course, is a stack. In this post I will avoid this word. Instead, I’ll end by telling you what a formal group exactly is.\nRecall that from a FGL $F(x,y)$ over $R$ we can get a functor\n$$R\\text{-algebras} \\to \\Ab. \\tag{2}$$\nGiven a functor (2), we say it is a coordinatizable formal group if it comes from some (non-unique) $F(x,y)$. In particular, a coordinatizable FG is a Zariski sheaf.\nThis is not what we eventually want. One reason is that such objects do not satisfy Zariski descent. This means that after gluing together several coordinatizable FGs, the resulting functor may not be coordinatizable anymore. The solution then is to just define the problem away.\nA formal group over $R$ is a functor (2) which is a Zariski sheaf, and which is Zariski-locally coordinatizable. In concrete terms, this means that there exists a family of elements $f_1,\\dots,f_n\\in R$, such that\nThey generate the unit ideal (some $R$-linear combination of them is 1); For each $i$, the composition $R_{f_i}\\text{-algebras} \\to R\\text{-algebras} \\to \\Ab$ is coordinatizable, where the first functor is the natural inclusion. ",
+  "wordCount" : "1021",
+  "inLanguage": "en",
+  "datePublished": "2024-07-27T00:00:00Z",
+  "dateModified": "2024-07-27T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chry-santhemum.github.io/website/posts/fgl-1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Atticus Wang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chry-santhemum.github.io/website/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<head>
+    ...
+    
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],
+      inlineMath: [['\\(', '\\)'], ['$', '$']]
+    }
+  };
+</script>
+    
+    ...
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://chry-santhemum.github.io/website/" accesskey="h" title="Atticus Wang (Alt + H)">Atticus Wang</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://chry-santhemum.github.io/website/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chry-santhemum.github.io/website/cv/" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chry-santhemum.github.io/website/notes/" title="Notes">
+                    <span>Notes</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Formal groups, part 1
+    </h1>
+    <div class="post-meta"><span title='2024-07-27 00:00:00 +0000 UTC'>July 27, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>$\newcommand{\ZZ}{\mathbb{Z}} \newcommand{\FF}{\mathbb{F}} \DeclareMathOperator{\nil}{nil} \DeclareMathOperator{\Spec}{Spec} \DeclareMathOperator{\Spf}{Spf} \DeclareMathOperator{\Ab}{Ab}$This stuff is all standard material and there are a ton of good expositions on this topic, but I thought this would be a good place to begin because the theory of formal groups starts out being really quite elementary, but it quickly goes pretty deep and reaches into a couple of surprising places.</p>
+<p>Before telling you what a formal group is, let me tell you what a formal group <em>law</em> is, which is something arguably easier to describe. Let us fix a ring $R$ (all rings will be unital and commutative). A <em>formal group law</em> (FGL for short) over $R$ is simply a formal power series</p>
+<p>$$F(x,y) \in R[[x,y]]$$</p>
+<p>which satisfies the familiar axioms for abelian groups:</p>
+<ul>
+<li>commutativity $F(x,y)=F(y,x)$</li>
+<li>associativity $F(x,F(y,z))=F(F(x,y),z)$</li>
+<li>identity $F(0,x)=F(x,0)=x$.</li>
+</ul>
+<p>In other words, to write down a FGL over $R$, you just need to choose some elements $c_{ij}\in R$ for $i,j\ge 1$, and let</p>
+<p>$$F(x,y) = x + y + \sum_{i,j\ge 1} c_{ij} x^iy^j, \tag{1}$$</p>
+<p>as long as the $c_{ij}$ you chose makes $F$ satisfy commutativity and associativity. These constraints, in terms of $c_{ij}$, are some polynomial equations: commutativity is simply $c_{ij} = c_{ji}$, and associativity is more complicated, but nonetheless described by some polynomial relations in the variables $c_{ij}$.</p>
+<p>In other words, there is a &ldquo;universal&rdquo; FGL, from which all other FGLs follow. This occurs over the ring where $c_{ij}$ are literally just free variables subject to the above polynomial constraints. This universal ring is called the &ldquo;Lazard ring&rdquo;:</p>
+<p>$$L = \ZZ[c_{ij}]/(\text{relations}),$$</p>
+<p>and the universal FGL which lives over it is literally eq. (1). And for an arbitrary ring $R$, to give a FGL over it is exactly the same as giving a ring homomorphism $L\to R$. This is something algebraic geometers really like to do: we have a functor which associates to a ring $R$ the set of FGLs over it, and we have shown that this functor is &ldquo;representable&rdquo;, in fact represented by the ring $L$.</p>
+<p>Another way to phrase this is that the affine scheme $\Spec L$ is the <em>moduli space</em> for FGLs, in the sense that its &ldquo;$R$-points&rdquo; (aka maps of schemes $\Spec R\to \Spec L$, aka ring maps $L\to R$) are naturally in bijection with FGLs over $R$.</p>
+<p>This is all quite trivial so far, so I want to take a slightly different view on what a FGL does. Let&rsquo;s fix an FGL $F(x,y)$ over $R$. For any $R$-algebra $A$, we can consider the set $\nil(A)$ of elements $a\in A$ which are nilpotent. You can easily check that the set $\nil(A)$ actually forms an ideal in $A$, the nilradical. There is already an addition on it, namely if $x,y\in\nil(A)$ then so is $x+y\in \nil(A)$. But this FGL we have gives us another way of adding $x,y$ together, namely $F(x,y)$. It is well-defined: $x,y$ are nilpotent, so the potentially infinite sum in $F(x,y)$ is actually a finite sum. Furthermore it makes $\nil(A)$ into an abelian group, by the axioms which $F$ has to satisfy. So this gives $\nil(A)$ a group structure that is different from plain addition.</p>
+<p>Thus, we have a functor from the category of $R$-algebras to the category of abelian groups, which maps $A$ to $\nil(A)$ with this group structure defined by $F$. In algebraic geometry, this is the functor represented by the formal scheme $\Spf R[[x]]$, which is a group object in the category of formal schemes.</p>
+<p>There is a slight catch in this construction which takes us to the concept of formal groups (FG for short). The catch is that the power series $F(x,y)$ cannot be completely recovered from the functor it defines. To see this, let&rsquo;s choose any power series $u(t) \in R[[t]]$ such that $u(t)\equiv t\pmod{t^2}$, and let</p>
+<p>$$G(x,y) = u(F(u^{-1}(x), u^{-1}(y))).$$</p>
+<p>What&rsquo;s going on here is that $u$ can be seen as an invertible change of coordinates. And even though $F\neq G$ as formal power series, they represent isomorphic functors. You can also view $u$ as an isomorphism of FGLs $F\to G$.</p>
+<p>So different FGLs may define the same formal group. In other words, to a ring $R$ we can really associate not just a set, but a <em>groupoid</em> of FGLs, wherein an object is a FGL and a map is an isomorphism of FGLs. This groupoid is nontrivial, as FGLs could have many automorphisms! For example, for the additive FGL over $\FF_2$, $F(x,y)=x+y$, any formal power series of form</p>
+<p>$$u(t)=t + a_1t^2 + a_2t^4 + a_3t^8 + \dots$$</p>
+<p>is an automorphism. In fact, the automorphism group scheme of the additive formal group over $\FF_2$ can be naturally identified with the mod 2 dual Steenrod algebra. (What?)</p>
+<p>Just as before $L$ (or more precisely $\Spec L$) was the moduli space for FGLs, we would like to have some sort of moduli space which takes these isomorphisms into account. In other words, we would like to have a ring (or scheme) whose $R$-points are naturally in bijection with the isomorphism classes of FGLs.</p>
+<p>However, such an object doesn&rsquo;t exist as a ring, or even as a scheme. The keyword, of course, is a <em>stack</em>. In this post I will avoid this word. Instead, I&rsquo;ll end by telling you what a formal group exactly is.</p>
+<p>Recall that from a FGL $F(x,y)$ over $R$ we can get a functor</p>
+<p>$$R\text{-algebras} \to \Ab. \tag{2}$$</p>
+<p>Given a functor (2), we say it is a <em>coordinatizable formal group</em> if it comes from some (non-unique) $F(x,y)$. In particular, a coordinatizable FG is a Zariski sheaf.</p>
+<p>This is not what we eventually want. One reason is that such objects do not satisfy <em>Zariski descent</em>. This means that after gluing together several coordinatizable FGs, the resulting functor may not be coordinatizable anymore. The solution then is to just define the problem away.</p>
+<p>A <em>formal group</em> over $R$ is a functor (2) which is a Zariski sheaf, and which is <em>Zariski-locally</em> coordinatizable. In concrete terms, this means that there exists a family of elements $f_1,\dots,f_n\in R$, such that</p>
+<ul>
+<li>They generate the unit ideal (some $R$-linear combination of them is 1);</li>
+<li>For each $i$, the composition $R_{f_i}\text{-algebras} \to R\text{-algebras} \to \Ab$ is coordinatizable, where the first functor is the natural inclusion.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://chry-santhemum.github.io/website/">Atticus Wang</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

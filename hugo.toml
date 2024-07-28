@@ -3,6 +3,17 @@ languageCode = "en-us"
 title = "Atticus Wang"
 theme = "PaperMod"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+[params]
+  math = true
+
 [params.homeInfoParams]
 Title = "Hey! I'm Atticus."
 Content = """&#8201;
