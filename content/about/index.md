@@ -7,7 +7,7 @@ draft: false
 
 My name is Zifan Wang (王子凡). I mostly go by Atticus.
 
-As of summer 2024, I am a rising junior at MIT studying pure math, primarily interested in algebraic topology and algebraic geometry. 
+As of summer 2024, I am a rising junior at MIT studying pure math, primarily interested in homotopy theory and adjacent areas.
 
 I also dabble in physics and machine learning.
 

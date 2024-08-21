@@ -18,7 +18,7 @@ theme = "PaperMod"
 Title = "Hey! I'm Atticus."
 Content = """&#8201;
 
-_Look at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And you will see how everything changes..._
+As for me, nothing in the universe can be the same if somewhere, no one knows where, a sheep we never saw has or has not eaten a rose... Look up at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And you will see how everything changes...
 
 &#8201;
 
@@ -26,7 +26,7 @@ _Look at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And y
 
 &#8201;
 
-&#11013; &#11013; [will](https://willhath.com/) &#11013; &#11013; (my friends!) &#10145; &#10145; [shreya](https://smog.ink/) &#10145; &#10145;"""
+&#11013; &#11013; [Will](https://willhath.com/) &#11013; &#11013; Friends &#10145; &#10145; [Shreya](https://smog.ink/) &#10145; &#10145;"""
 
 
 [[params.socialIcons]]
@@ -52,6 +52,12 @@ identifier = "cv"
 name = "CV"
 url = "/cv/"
 weight = 50
+
+[[menu.main]]
+identifier = "seminar"
+name = "Seminar"
+url = "/seminar/"
+weight = 55
 
 [[menu.main]]
 identifier = "notes"
