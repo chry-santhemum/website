@@ -7,12 +7,20 @@ draft: false
 
 Topic: $p$-adic Hodge theory and topological cyclic homology.
 
-Plan: ???
+| Talk # | Title | Speaker | Date | Notes |
+|  ---   | ---   |  ---    | ---  | --- |
+| 1 | Introduction to prismatic cohomology | Atticus Wang | October 1 | ([notes](/website/PrismIntro.pdf)) |
+| 2 |  | Sasha Petrov | | |
+| 3 |  | | | |
+| 4 |  | | | |
+| 5 |  | | | |
 
-References:
-- Bhatt--Scholze, pro-étale
-- Scholze, perfectoid spaces
-- Scholze--Weinstein, Berkeley lectures
+### References
+
+A comprehensive list is compiled by Yuri Sulyma [here](https://ysulyma.github.io/prismatic). 
+- Bhatt, [Colombia lectures](https://www.math.ias.edu/~bhatt/teaching/prismatic-columbia/)
+- Kedlaya's [course notes](https://kskedlaya.org/prismatic/prismatic.html)
+- Bhatt's [ICM address](https://arxiv.org/abs/2112.12010v1)
 - BMS1, BMS2
 - Krause--Nikolaus, notes on THH
 - Nikolaus--Scholze, cyclotomic spectra
