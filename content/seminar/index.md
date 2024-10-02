@@ -9,7 +9,7 @@ Topic: $p$-adic Hodge theory and topological cyclic homology.
 
 | Talk # | Title | Speaker | Date | Notes |
 |  ---   | ---   |  ---    | ---  | --- |
-| 1 | Introduction to prismatic cohomology | Atticus Wang | October 1 | ([notes](/website/PrismIntro.pdf)) |
+| 1 | Introduction to prismatic cohomology | Atticus Wang | October 1 | [pdf](/website/PrismIntro.pdf) |
 | 2 |  | Sasha Petrov | | |
 | 3 |  | | | |
 | 4 |  | | | |

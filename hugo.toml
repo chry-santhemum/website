@@ -18,28 +18,8 @@ theme = "PaperMod"
 Title = "Hey! I'm Atticus."
 Content = """&#8201;
 
-As for me, nothing in the universe can be the same if somewhere, no one knows where, a sheep we never saw has or has not eaten a rose... Look up at the sky. Ask yourself: \"Has the sheep eaten the flower or not?\" And you will see how everything changes...
+![cezanne](/website/images/cezanne.jpg)"""
 
-&#8201;
-
-![cezanne](/website/images/cezanne.jpg)
-
-&#8201;
-
-&#11013; &#11013; [Will](https://willhath.com/) &#11013; &#11013; Friends &#10145; &#10145; [Shreya](https://smog.ink/) &#10145; &#10145;"""
-
-
-[[params.socialIcons]]
-name = "email"
-url = "mailto:atticusw@mit.edu"
-
-[[params.socialIcons]]
-name = "facebook"
-url = "https://www.facebook.com/zifan.wang.524/"
-
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/tweetfkingtweet"
 
 [[menu.main]]
 identifier = "about"
@@ -48,19 +28,13 @@ url = "/about/"
 weight = 20
 
 [[menu.main]]
-identifier = "cv"
-name = "CV"
-url = "/cv/"
-weight = 50
+identifier = "notes"
+name = "Notes"
+url = "/notes/"
+weight = 30
 
 [[menu.main]]
 identifier = "seminar"
 name = "Seminar"
 url = "/seminar/"
-weight = 55
-
-[[menu.main]]
-identifier = "notes"
-name = "Notes"
-url = "/notes/"
 weight = 60
