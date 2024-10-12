@@ -10,7 +10,7 @@ Topic: $p$-adic Hodge theory and topological cyclic homology.
 | Talk # | Title | Speaker | Date | Notes |
 |  ---   | ---   |  ---    | ---  | --- |
 | 1 | Introduction to prismatic cohomology | Atticus Wang | October 1 | [pdf](/website/PrismIntro.pdf) |
-| 2 | Prismatic cohomology and comparison theorems | Sasha Petrov | October 11 | |
+| 2 | The de Rham comparison theorem | Sasha Petrov | October 11 | [pdf](/website/derham_comparison.pdf) |
 | 3 | de Rham and crystalline cohomology, via stacks | | | |
 | 4 | Prismatization | | | |
 | 5 | Topological Hochschild homology | | | |
