@@ -5,27 +5,35 @@ draft: false
 
 ## Fall 2024
 
-Topic: $p$-adic Hodge theory and topological cyclic homology.
+Topic: p-adic Hodge theory and topological cyclic homology.
 
-| Talk # | Title | Speaker | Date | Notes |
-|  ---   | ---   |  ---    | ---  | --- |
-| 1 | Introduction to prismatic cohomology | Atticus Wang | October 1 | [pdf](/website/PrismIntro.pdf) |
-| 2 | The de Rham comparison theorem | Sasha Petrov | October 11 | [pdf](/website/derham_comparison.pdf) |
-| 3 | de Rham and crystalline cohomology, via stacks | | | |
-| 4 | Prismatization | | | |
-| 5 | Topological Hochschild homology | | | |
+| Date | Title | Speaker | Notes | 
+|  ---   | ---   |  ---    | ---  |
+| Oct 1 | Introduction to prismatic cohomology | Atticus Wang | [pdf](/website/PrismIntro.pdf) |
+| Oct 11 | The de Rham comparison theorem | Sasha Petrov | [pdf](/website/derham_comparison.pdf) |
+| Oct 18 | The de Rham comparison theorem (continued) | Sasha Petrov | same as above |
+| | de Rham and crystalline via stacks | Kenta Suzuki | |
+| | Prismatization | | |
+| | Prismatization (continued) | | |
+| | Topological Hochschild homology | | |
 
 ### References
 
-A comprehensive list is compiled by Yuri Sulyma [here](https://ysulyma.github.io/prismatic). 
-- Bhatt, [Colombia lectures](https://www.math.ias.edu/~bhatt/teaching/prismatic-columbia/)
-- Kedlaya's [course notes](https://kskedlaya.org/prismatic/prismatic.html)
-- Bhatt's [ICM address](https://arxiv.org/abs/2112.12010v1)
-- Drinfeld, [Prismatization](https://arxiv.org/abs/2005.04746) and a related [talk](https://www.youtube.com/watch?v=3wCk3qsFWLA)
-- Bhatt--Lurie [1](https://arxiv.org/abs/2201.06120) [2](https://arxiv.org/abs/2201.06124)
-- Bhatt, prismatic F-gauges
-- BMS1, BMS2
-- Krause--Nikolaus, notes on THH
-- Nikolaus--Scholze, cyclotomic spectra
+A comprehensive list is compiled by Yuri Sulyma [here](https://ysulyma.github.io/prismatic).
+
+General:
+- Bhatt's [ICM address](https://arxiv.org/abs/2112.12010v1). Overview of main developments and applications without proofs.
+- Bhatt, [Columbia lectures](https://www.math.ias.edu/~bhatt/teaching/prismatic-columbia/). Develops the theory of prisms from scratch and proves the main comparison theorems.
+- Kedlaya's [course notes](https://kskedlaya.org/prismatic/prismatic.html). Largely drawn from the Columbia lectures but fills in a lot of prerequisites.
+
+Stacky:
+- Drinfeld, [stacky approach to crystals](https://arxiv.org/abs/1810.11853), [prismatization](https://arxiv.org/abs/2005.04746), and a related [talk](https://www.youtube.com/watch?v=3wCk3qsFWLA). The talk is very understandable. 
+- Bhatt--Lurie [1](https://arxiv.org/abs/2201.06120), [2](https://arxiv.org/abs/2201.06124)
+- Bhatt, [prismatic F-gauges](https://www.math.ias.edu/~bhatt/teaching/mat549f22/lectures.pdf). Probably the most accessible out of all three.
+
+Topology:
+- BMS 1, 2
+- Krause--Nikolaus, course notes on THH. Very accessible introduction and the lectures are on youtube.
+- Nikolaus--Scholze, cyclotomic spectra.
 - Hahn--Raksit--Wilson, even filtration
 - ...
