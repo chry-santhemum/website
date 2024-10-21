@@ -12,8 +12,9 @@ Topic: p-adic Hodge theory and topological cyclic homology.
 | Oct 1 | Introduction to prismatic cohomology | Atticus Wang | [pdf](/website/PrismIntro.pdf) |
 | Oct 11 | The de Rham comparison theorem | Sasha Petrov | [pdf](/website/derham_comparison.pdf) |
 | Oct 18 | The de Rham comparison theorem (continued) | Sasha Petrov | same as above |
-| | de Rham and crystalline via stacks | Kenta Suzuki | |
-| | Prismatization | | |
+| Oct 22 | de Rham and crystalline via stacks | Kenta Suzuki | |
+| | de Rham and crystalline via stacks (continued) | Kenta Suzuki | |
+| | Prismatization | Eunsu Hur | |
 | | Prismatization (continued) | | |
 | | Topological Hochschild homology | | |
 
