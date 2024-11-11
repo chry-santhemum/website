@@ -14,8 +14,8 @@ Topic: p-adic Hodge theory and topological cyclic homology.
 | Oct 18 | The de Rham comparison theorem (continued) | Sasha Petrov | same as above |
 | Oct 22 | Linear algebra | Kenta Suzuki | [pdf](/website/Kenta1.pdf) |
 | Nov 1 | de Rham cohomology via stacks | Kenta Suzuki | [pdf](/website/Kenta2.pdf) |
-| Nov 5 | de Rham cohomology via stacks (continued) | Kenta Suzuki | |
-| | Prismatization | Eunsu Hur | |
+| Nov 12 | de Rham cohomology via stacks (continued) | Atticus Wang | |
+| Nov 15 | Prismatization | Eunsu Hur | |
 | | Prismatization (continued) | | |
 | | Topological Hochschild homology | | |
 
@@ -27,6 +27,7 @@ General:
 - Bhatt's [ICM address](https://arxiv.org/abs/2112.12010v1). Overview of main developments and applications without proofs.
 - Bhatt, [Columbia lectures](https://www.math.ias.edu/~bhatt/teaching/prismatic-columbia/). Develops the theory of prisms from scratch and proves the main comparison theorems.
 - Kedlaya's [course notes](https://kskedlaya.org/prismatic/prismatic.html). Largely drawn from the Columbia lectures but fills in a lot of prerequisites.
+- Emerton's [course notes](https://math.uchicago.edu/~emerton/prismatic/prismatic.html).
 
 Stacky:
 - Drinfeld, [stacky approach to crystals](https://arxiv.org/abs/1810.11853), [prismatization](https://arxiv.org/abs/2005.04746), and a related [talk](https://www.youtube.com/watch?v=3wCk3qsFWLA). The talk is very understandable. 
