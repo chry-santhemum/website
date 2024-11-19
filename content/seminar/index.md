@@ -5,7 +5,7 @@ draft: false
 
 ## Fall 2024
 
-Topic: p-adic Hodge theory and topological cyclic homology.
+Topic: p-adic Hodge theory and topological cyclic homology. We'll meet in 2-361 by default.
 
 | Date | Title | Speaker | Notes | 
 |  ---   | ---   |  ---    | ---  |
@@ -16,9 +16,9 @@ Topic: p-adic Hodge theory and topological cyclic homology.
 | Nov 1 | de Rham cohomology via stacks, char 0 case | Kenta Suzuki | [pdf](/website/Kenta2.pdf) |
 | Nov 12 | Ring groupoids | Atticus Wang | |
 | Nov 15 | de Rham cohomology via stacks, p-adic case | Atticus Wang | [pdf](/website/drstk2.pdf) |
-| | Prismatization | Eunsu Hur | |
-| | Prismatization (continued) | | |
-| | Topological Hochschild homology | | |
+| Nov 19 | Prismatization | Eunsu Hur | |
+| Nov 22 | Prismatization (continued) | Eunsu Hur | |
+| | Topological Hochschild homology | Atticus Wang| |
 
 ### References
 
