@@ -3,7 +3,10 @@ title: "About"
 draft: false
 ---
 
-<img src="https://chry-santhemum.github.io/website/images/photo.JPG" alt="drawing" width="200"/>
+![photo](/website/images/photo.jpg)
+<!-- {{ $image := resources.Get "images/photo.JPG"}}
+{{ $image := $image.Process "resize 600x" }}
+<img src="{{ $image.RelPermalink }}" alt="photo" width="{{ $image.Width }}"/> -->
 
 My name is Zifan Wang (王子凡). I mostly go by Atticus. Here is my [CV](/website/cv.pdf).
 
