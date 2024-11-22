@@ -3,7 +3,7 @@ title: "About"
 draft: false
 ---
 
-![photo](/website/images/bad.jpeg)
+<img src="https://chry-santhemum.github.io/website/images/photo.JPG" alt="drawing" width="200"/>
 
 My name is Zifan Wang (王子凡). I mostly go by Atticus. Here is my [CV](/website/cv.pdf).
 

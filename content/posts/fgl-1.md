@@ -1,7 +1,7 @@
 ---
 title: "Formal groups, part 1"
 date: 2024-07-27
-draft: false
+draft: true
 ---
 $\newcommand{\ZZ}{\mathbb{Z}} \newcommand{\FF}{\mathbb{F}} \DeclareMathOperator{\nil}{nil} \DeclareMathOperator{\Spec}{Spec} \DeclareMathOperator{\Spf}{Spf} \DeclareMathOperator{\Ab}{Ab}$This stuff is all standard material and there are a ton of good expositions on this topic, but I thought this would be a good place to begin because the theory of formal groups starts out being really quite elementary, but it quickly goes pretty deep and reaches into a couple of surprising places. 
 

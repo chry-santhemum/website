@@ -1,7 +1,7 @@
 ---
 title: "Formal groups, part 2: the logarithm"
 date: 2024-07-29
-draft: false
+draft: true
 ---
 $\newcommand{\pard}[2]{\frac{\partial #1}{\partial #2}} \newcommand{\ZZ}{\mathbb{Z}} \newcommand{\QQ}{\mathbb{Q}} \newcommand{\GG}{\mathbb{G}} \newcommand{\FF}{\mathbb{F}} \DeclareMathOperator{\nil}{nil} \DeclareMathOperator{\Spec}{Spec} \DeclareMathOperator{\Spf}{Spf} \DeclareMathOperator{\Ab}{Ab}$Before diving into stacks, I'd like to stay in the elementary situation a bit longer and discuss an important construction: the logarithm.
 

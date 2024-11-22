@@ -17,8 +17,8 @@ Topic: p-adic Hodge theory and topological cyclic homology. We'll meet in 2-361 
 | Nov 12 | Ring groupoids | Atticus Wang | |
 | Nov 15 | de Rham cohomology via stacks, p-adic case | Atticus Wang | [pdf](/website/drstk2.pdf) |
 | Nov 19 | Prismatization | Eunsu Hur | |
-| Nov 22 | Prismatization (continued) | Eunsu Hur | |
-| | Topological Hochschild homology | Atticus Wang| |
+| TBD | Prismatization (continued) | Eunsu Hur | |
+| TBD | Topological Hochschild homology | Atticus Wang| |
 
 ### References
 
