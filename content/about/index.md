@@ -11,7 +11,7 @@ I also dabble in physics, music, and machine learning.
 
 In a parallel universe, I may be a guitarist, a chemist, or a writer.
 
-![photo](/website/images/photo.jpg)
+![photo](/website/images/photo.JPG)
 <!-- {{ $image := resources.Get "images/photo.JPG"}}
 {{ $image := $image.Process "resize 600x" }}
 <img src="{{ $image.RelPermalink }}" alt="photo" width="{{ $image.Width }}"/> -->
