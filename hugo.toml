@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Atticus Wang"
 theme = "PaperMod"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
@@ -18,9 +22,6 @@ theme = "PaperMod"
 Title = "Hey! I'm Atticus."
 Content = """&#8201;
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
 
 ![cezanne](/website/images/cezanne.jpg)"""
 
