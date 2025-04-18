@@ -18,6 +18,10 @@ theme = "PaperMod"
 Title = "Hey! I'm Atticus."
 Content = """&#8201;
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 ![cezanne](/website/images/cezanne.jpg)"""
 
 
