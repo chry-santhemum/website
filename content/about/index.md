@@ -3,11 +3,11 @@ title: "About"
 draft: false
 ---
 
-My name is Zifan Wang (王子凡). I mostly go by Atticus. Here is my [CV](/website/cv.pdf).
+My name is Zifan Wang 王子凡. I mostly go by Atticus. Here is my [CV](/website/cv.pdf).
 
-As of fall 2024, I am a junior at MIT studying pure math. I am interested in homotopy theory and many of its adjacent areas.
+As of spring 2025, I am a junior at MIT studying pure math. I am interested in homotopy theory and many of its adjacent areas.
 
-I also dabble in physics, music, and machine learning.
+I also dabble in physics, music, and machine learning. At the moment, I spend most of my time doing research in deep learning.
 
 In a parallel universe, I may be a guitarist, a chemist, or a writer.
 
